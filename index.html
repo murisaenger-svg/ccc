@@ -3117,7 +3117,7 @@ async function endingScene() {
     Snd.sfx('love'); flash('#ffd0e0', .7);
     for (let i = 0; i < 40; i++) fx({ x: cam.x + rnd(0, VW), y: cam.y + VH + 4, vx: rnd(-10, 10), vy: -rnd(25, 60), life: rnd(2, 4), kind: 'heart', size: 2 + ((Math.random() * 2) | 0), color: ['#ff4d7d', '#ff8fb0', '#ffd0de'][i % 3] });
     shake(.3);
-    await say('{eu}', ['Ela disse SIM! HEHEHE', 'Meu coração fez mais barulho do que o Rei da Preguiça acordando.']);
+    await say('{eu}', ['Ela disse SIM!', 'Meu coração fez mais barulho do que o Rei da Preguiça acordando.']);
     await say('{nome}', ['Claro que sim, bobo. Desde o começo o único final que eu queria era esse.', 'Mas se o "Não" voltar, eu espanco ele']);
     await say('Rei da Preguiça', '(do canto, dormindo) ...zzz... que lindo... zzz... eu quero ser padrinho... zzz...');
     await say('', ['E assim, {nome} e {eu} viveram felizes para sempre...', 'Ou pelo menos até a próxima aventura.', 'FIM.']);
